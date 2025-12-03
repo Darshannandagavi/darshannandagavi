@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router";
+import "aos/dist/aos.css";
+import GuestLayout from "./Components/GuestLayout/GuestLayout";
+import HeroSection from "./Components/GuestLayout/HeroSection";
+import Education from "./Components/GuestLayout/Education";
+import Contact from "./Components/GuestLayout/Contact";
+import Projects from "./Components/GuestLayout/Projects";
+import AboutSection from "./Components/GuestLayout/AboutSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<GuestLayout/>}>
+          <Route index element={<HeroSection/>}></Route>
+          <Route path="/" element={<HeroSection/>}></Route>
+          <Route path="/education" element={<Education/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/projects" element={<Projects/>}></Route>
+          <Route path="/about" element={<AboutSection/>}></Route>
+      </Route>
+    </Routes>
   );
 }
 
