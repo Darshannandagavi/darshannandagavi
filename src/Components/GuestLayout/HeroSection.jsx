@@ -75,6 +75,7 @@ const HeroSection = () => {
         <div className="hero-right" data-aos="fade-left" data-aos-delay="300">
   <Tilt
     glareEnable={true}
+    tiltReverse={true}
     glareMaxOpacity={0.45}
     glareColor="#ffffff"
     glarePosition="all"
