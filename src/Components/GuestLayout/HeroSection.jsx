@@ -3,6 +3,8 @@ import "./HeroSection.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Tilt from "react-parallax-tilt";
+
 // React Icons
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa";
@@ -71,26 +73,37 @@ const HeroSection = () => {
 
         {/* RIGHT SIDE - Profile Image */}
         <div className="hero-right" data-aos="fade-left" data-aos-delay="300">
-          <div className="image-wrapper">
-            <img
-              src="./DarshanNandagavi.JPG"
-              alt="Darshan Nandagavi"
-              className="profile-pic"
-            />
-            
-            {/* Floating Tech Badges */}
-            <div className="tech-badge react-badge">
-              <span>React</span>
-            </div>
-            <div className="tech-badge node-badge">
-              <span>Node.js</span>
-            </div>
-            <div className="tech-badge mongo-badge">
-              <span>MongoDB</span>
-            </div>
-            
-            </div>
-        </div>
+  <Tilt
+    glareEnable={true}
+    glareMaxOpacity={0.45}
+    glareColor="#ffffff"
+    glarePosition="all"
+    scale={1.05}
+    transitionSpeed={2500}
+    tiltMaxAngleX={10}
+    tiltMaxAngleY={10}
+    className="tilt-wrapper"
+  >
+    <div className="image-wrapper">
+      <img
+        src="./DarshanNandagavi.JPG"
+        alt="Darshan Nandagavi"
+        className="profile-pic"
+      />
+
+      <div className="tech-badge react-badge">
+        <span>React</span>
+      </div>
+      <div className="tech-badge node-badge">
+        <span>Node.js</span>
+      </div>
+      <div className="tech-badge mongo-badge">
+        <span>MongoDB</span>
+      </div>
+    </div>
+  </Tilt>
+</div>
+
 
       </section>
       <AboutSection/>
