@@ -71,26 +71,19 @@ const Education = () => {
 
                 <div className="edu-meta">
                   <div className="edu-meta-item">
-                    <span className="edu-meta-label">Duration</span>
-                    <span className="edu-meta-value">{item.date}</span>
+                    <span className="edu-meta-label">Duration </span>
+                    <span className="edu-meta-value"> {item.date}</span>
                   </div>
 
                   <div className="edu-meta-item">
-                    <span className="edu-meta-label">Grade</span>
-                    <span className="edu-meta-value edu-grade">{item.grade}</span>
+                    <span className="edu-meta-label">Grade </span>
+                    <span className="edu-meta-value edu-grade"> {item.grade}</span>
                   </div>
                 </div>
               </div>
-              <div className="edu-status">
-                <div
-                  className={`edu-dot ${item.id === 1 ? "edu-current" : "edu-completed"}`}
-                ></div>
-                <span className="edu-status-text">
-                  {item.id === 1 ? "Current" : "Completed"}
-                </span>
-              </div>
+
+              
             </div>
-            
           ))}
         </div>
 

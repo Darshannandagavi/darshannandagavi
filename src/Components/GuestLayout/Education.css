@@ -103,7 +103,10 @@
 
 /* Status */
 .edu-status {
-  
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  text-align: center;
 }
 
 .edu-dot {
