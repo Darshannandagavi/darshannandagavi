@@ -61,23 +61,9 @@ const Experience = () => {
   ];
 
   const achievements = [
+   
     {
       id: 1,
-      title: "Gururaj Foundation",
-      type: "Live Client Project",
-      description:
-        "Complete NGO platform with donations, exams, student dashboards, and paid courses.",
-      liveUrl: "https://gururajfoundation.com",
-      icon: <FaServer />,
-      features: [
-        "Public donations",
-        "Student registration",
-        "Online exams",
-        "Course management"
-      ]
-    },
-    {
-      id: 2,
       title: "Ligand Work-Space",
       type: "Internal Project",
       description:
@@ -89,6 +75,21 @@ const Experience = () => {
         "Homework evaluation",
         "Fee management",
         "Admin controls"
+      ]
+    },
+     {
+      id: 2,
+      title: "Gururaj Foundation",
+      type: "Live Client Project",
+      description:
+        "Complete NGO platform with donations, exams, student dashboards, and paid courses.",
+      liveUrl: "https://gururajfoundation.com",
+      icon: <FaServer />,
+      features: [
+        "Public donations",
+        "Student registration",
+        "Online exams",
+        "Course management"
       ]
     }
   ];
