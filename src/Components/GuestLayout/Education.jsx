@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import styles from './Education.module.css';
+import "./Education.css";
 import { FaBookOpen, FaFlask, FaGraduationCap } from "react-icons/fa";
 import AOS from "aos";
 
@@ -19,7 +19,6 @@ const Education = () => {
       title: "Masters of Computer Applications (MCA)",
       institution: "Presidency College Autonomous, Bengaluru",
       date: "2025 – 2027",
-      
       icon: <FaGraduationCap />,
       iconColor: "#6c5ce7"
     },
@@ -44,65 +43,62 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className={styles.educationSection}>
-      <div className={styles.container}>
-        
+    <section id="education" className="edu-section">
+      <div className="edu-container">
+
         {/* Header */}
-        <div className={styles.sectionHeader} data-aos="fade-up">
-          <h2 className={styles.sectionTitle}>Education</h2>
-          <p className={styles.sectionSubtitle}>My academic background and achievements</p>
+        <div className="edu-header" data-aos="fade-up">
+          <h2 className="edu-title">Education</h2>
+          <p className="edu-subtitle">My academic background and achievements</p>
         </div>
 
-        {/* Education Cards */}
-        <div className={styles.educationCards}>
+        {/* Cards */}
+        <div className="edu-cards">
           {educationItems.map((item) => (
-            <div 
-              key={item.id} 
-              className={styles.educationCard}
+            <div
+              key={item.id}
+              className="edu-card"
               data-aos="fade-up"
               data-aos-delay={item.id * 100}
             >
-              
-              {/* Icon */}
-              <div className={styles.educationIcon} style={{ color: item.iconColor }}>
+              <div className="edu-icon" style={{ color: item.iconColor }}>
                 {item.icon}
               </div>
 
-              {/* Content */}
-              <div className={styles.educationContent}>
-                <h3 className={styles.educationTitle}>{item.title}</h3>
-                <p className={styles.educationInstitution}>{item.institution}</p>
-                
-                <div className={styles.educationMeta}>
-                  <div className={styles.metaItem}>
-                    <span className={styles.metaLabel}>Duration</span>
-                    <span className={styles.metaValue}>{item.date}</span>
+              <div className="edu-content">
+                <h3 className="edu-card-title">{item.title}</h3>
+                <p className="edu-institution">{item.institution}</p>
+
+                <div className="edu-meta">
+                  <div className="edu-meta-item">
+                    <span className="edu-meta-label">Duration</span>
+                    <span className="edu-meta-value">{item.date}</span>
                   </div>
-                  <div className={styles.metaItem}>
-                    <span className={styles.metaLabel}>Grade</span>
-                    <span className={`${styles.metaValue} ${styles.grade}`}>{item.grade}</span>
+
+                  <div className="edu-meta-item">
+                    <span className="edu-meta-label">Grade</span>
+                    <span className="edu-meta-value edu-grade">{item.grade}</span>
                   </div>
                 </div>
               </div>
-
-              {/* Status Indicator */}
-              <div className={styles.statusIndicator}>
-                <div 
-                  className={`${styles.statusDot} ${item.id === 1 ? styles.current : styles.completed}`}
+              <div className="edu-status">
+                <div
+                  className={`edu-dot ${item.id === 1 ? "edu-current" : "edu-completed"}`}
                 ></div>
-                <span className={styles.statusText}>
-                  {item.id === 1 ? 'Current' : 'Completed'}
+                <span className="edu-status-text">
+                  {item.id === 1 ? "Current" : "Completed"}
                 </span>
               </div>
             </div>
+            
           ))}
         </div>
 
         {/* Additional Info */}
-        <div className={styles.additionalInfo} data-aos="fade-up">
-          <div className={styles.infoItem}>
-            <FaBookOpen className={styles.infoIcon} />
-            <div className={styles.infoContent}>
+        <div className="edu-extra" data-aos="fade-up">
+          <div className="edu-extra-item">
+            <FaBookOpen className="edu-extra-icon" />
+            <div className="edu-extra-content">
               <h4>Academic Focus</h4>
               <p>Computer Science, Web Development, Software Engineering</p>
             </div>

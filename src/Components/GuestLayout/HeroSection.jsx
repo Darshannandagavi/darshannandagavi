@@ -12,6 +12,7 @@ import AboutSection from "./AboutSection";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Education from "./Education"
+import Experience from "./Experience";
 const HeroSection = () => {
   useEffect(() => {
     AOS.init({
@@ -110,6 +111,7 @@ const HeroSection = () => {
       </section>
       <AboutSection/>
       <Education/>
+      <Experience/>
       <Projects/>
       <Contact/>
     </main>

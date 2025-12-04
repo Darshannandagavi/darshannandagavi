@@ -5,10 +5,12 @@ import "./GuestNavbar.css";
 import {
   AiFillHome,
   AiOutlineInfoCircle,
-  AiOutlineOrderedList,
   AiFillPhone
 } from "react-icons/ai";
 import { PiGraduationCapFill } from "react-icons/pi";
+import { FaBusinessTime } from "react-icons/fa";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+
 
 const GuestNavbar = () => {
   const [open, setOpen] = useState(false);
@@ -56,8 +58,15 @@ const GuestNavbar = () => {
 
             <li className="nav-item" data-aos="fade-down">
               <NavLink to="/projects" className="nav-link">
-                <AiOutlineOrderedList className="nav-react-icon" />
+                <LiaLaptopCodeSolid  className="nav-react-icon" />
                 Projects
+              </NavLink>
+            </li>
+
+            <li className="nav-item" data-aos="fade-down">
+              <NavLink to="/experience" className="nav-link">
+                <FaBusinessTime className="nav-react-icon" />
+                Experience
               </NavLink>
             </li>
 

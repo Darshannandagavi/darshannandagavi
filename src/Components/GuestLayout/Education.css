@@ -1,0 +1,157 @@
+.edu-section {
+  padding: 5rem 2rem;
+  background: #0f0f0f;
+  width: 100%;
+}
+
+/* Container */
+.edu-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header */
+.edu-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.edu-title {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.edu-subtitle {
+  color: #888;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Cards */
+.edu-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.edu-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+  transition: 0.3s;
+}
+
+.edu-card:hover {
+  border-color: #444;
+  transform: translateY(-3px);
+}
+
+/* Icon */
+.edu-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(108, 92, 231, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+/* Content */
+.edu-content {
+  flex: 1;
+}
+
+.edu-card-title {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.edu-institution {
+  color: #6c5ce7;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.edu-meta {
+  display: flex;
+  gap: 2rem;
+}
+
+.edu-meta-label {
+  color: #888;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.edu-meta-value {
+  color: #ccc;
+}
+
+.edu-grade {
+  color: #4CAF50;
+  font-weight: 600;
+}
+
+/* Status */
+.edu-status {
+  
+}
+
+.edu-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.edu-current {
+  background: #6c5ce7;
+  animation: eduPulse 2s infinite;
+}
+
+.edu-completed {
+  background: #4CAF50;
+}
+
+.edu-status-text {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+@keyframes eduPulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+/* Extra info */
+.edu-extra {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.edu-extra-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.edu-extra-icon {
+  color: #6c5ce7;
+  font-size: 1.3rem;
+}
