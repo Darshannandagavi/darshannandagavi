@@ -52,10 +52,9 @@ const GuestFooter = () => {
           <div className="footer-links" data-aos="fade-up" data-aos-delay="100">
             <h3 className="links-title">Quick Navigation</h3>
             <ul className="links-list">
-              <li><a href="#home" className="footer-link">Home</a></li>
+              <li><a href="#" className="footer-link">Home</a></li>
               <li><a href="#about" className="footer-link">About</a></li>
               <li><a href="#projects" className="footer-link">Projects</a></li>
-              <li><a href="#skills" className="footer-link">Skills</a></li>
               <li><a href="#experience" className="footer-link">Experience</a></li>
               <li><a href="#contact" className="footer-link">Contact</a></li>
             </ul>
@@ -81,13 +80,15 @@ const GuestFooter = () => {
           {/* Social & Contact */}
           <div className="footer-social" data-aos="fade-up" data-aos-delay="300">
             <h3 className="social-title">Connect With Me</h3>
-            <div className="social-icons">
+            <div className="social-icons" >
               <a 
                 href="https://www.linkedin.com/in/darshan-nandagavi/" 
                 className="social-icon linkedin"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
+                
+                
               >
                 <FaLinkedinIn />
               </a>
@@ -97,6 +98,7 @@ const GuestFooter = () => {
                 aria-label="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
+                
               >
                 <FaGithub />
               </a>

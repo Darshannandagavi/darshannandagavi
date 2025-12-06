@@ -11,6 +11,7 @@ import {
   FaGlobe,
  
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 
 const Contact = () => {
@@ -143,6 +144,24 @@ const Contact = () => {
                 >
                   <div className="social-icon" style={{background:"white"}}>
                     <FaGithub />
+                  </div>
+                  <div className="social-info">
+                    <span className="social-name">GitHub</span>
+                    <span className="social-handle">@Darshannandagavi</span>
+                  </div>
+                  <div className="social-stats">
+                    <span className="stat-tag">Code</span>
+                  </div>
+                </a>
+
+                <a 
+                  href="https://leetcode.com/Darshannandagavi"
+                  className="social-item github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="social-icon" style={{background:"white"}}>
+                    <SiLeetcode />
                   </div>
                   <div className="social-info">
                     <span className="social-name">GitHub</span>

@@ -231,6 +231,8 @@
   text-decoration: none;
   position: relative;
   overflow: hidden;
+  background-color: white;
+  
 }
 
 .social-icon::before {

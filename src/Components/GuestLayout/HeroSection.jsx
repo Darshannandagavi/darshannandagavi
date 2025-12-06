@@ -111,8 +111,8 @@ const HeroSection = () => {
       </section>
       <AboutSection/>
       <Education/>
-      <Experience/>
       <Projects/>
+      <Experience/>
       <Contact/>
     </main>
   );
