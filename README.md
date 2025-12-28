@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+[![Portfolio](https://img.shields.io/badge/portfolio-Darshan-blue?style=flat-square)](https://github.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Darshan — Personal Portfolio
 
-## Available Scripts
+> A modern, minimal and responsive React portfolio showcasing projects, experience, education, and ways to contact me. Built with Create React App and focused on accessibility, performance, and clarity.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Add your deployed URL here (Netlify, Vercel, GitHub Pages, etc.)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Highlights
 
-### `npm test`
+- Clean, mobile-first design
+- Hero section with clear call-to-action
+- Projects gallery with cards and links to live demos & source code
+- Experience & education timeline
+- Contact details and optional contact form
+- Accessible semantic markup and keyboard-friendly navigation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- React (Create React App)
+- JavaScript (ES6+)
+- HTML5 & CSS3 (Flexbox & Grid)
+- Optional: Netlify / Vercel for deployments
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone and run locally:
 
-### `npm run eject`
+```bash
+git clone <your-repo-url>
+cd client
+npm install
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# open http://localhost:3000
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Build for production:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- public/ — static files and `index.html`
+- src/ — React source
+	- App.js, index.js — app entry
+	- Components/GuestLayout/ — layout and page sections
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Suggested Styling (drop into `src/index.css`)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The project already uses component-level styles. Below is a polished global stylesheet you can paste into `src/index.css` to get a modern, consistent look across components. Import it from `src/index.js` (`import './index.css'`).
 
-### Analyzing the Bundle Size
+```css
+:root{
+	--bg: #071229;
+	--card: #0b1220;
+	--muted: #9aa4b2;
+	--accent: #00d4ff;
+	--accent-2: #7c5cff;
+	--text: #e6eef8;
+	--glass: rgba(255,255,255,0.04);
+	--radius: 12px;
+	--container: 1100px;
+}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+	margin:0;
+	font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+	background:linear-gradient(180deg,var(--bg),#021426 70%);
+	color:var(--text);
+	-webkit-font-smoothing:antialiased;
+}
+.container{max-width:var(--container);margin:0 auto;padding:0 1.25rem}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+.hero{display:grid;grid-template-columns:1fr 420px;gap:2rem;padding:3.5rem 0}
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,0.55);border:1px solid rgba(255,255,255,0.03)}
+.cta{display:inline-flex;padding:0.75rem 1rem;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#02101a;font-weight:700}
+@media (max-width:980px){.hero{grid-template-columns:1fr}.projects-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.projects-grid{grid-template-columns:1fr}}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Accessibility & Performance Tips
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Use semantic elements (`<header>`, `<main>`, `<section>`, `<footer>`).
+- Provide meaningful `alt` text for images and `aria-label` for non-text controls.
+- Use `loading="lazy"` for non-critical images.
+- Keep color contrast high (adjust `--accent` if needed) for WCAG AA.
+- Minimize large libraries; lazy-load heavy components when possible.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How to Customize
 
-### Deployment
+- Replace the hero text, your name, and links (GitHub, LinkedIn, email).
+- Add or remove projects in `Components/GuestLayout/Projects.jsx` (or your Projects component).
+- Hook up a contact form backend (Formspree, Netlify Forms, or your own API).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Build with `npm run build` and deploy the `build/` folder to Netlify, Vercel, or GitHub Pages.
+- For Netlify/Vercel: connect the repo and set the publish directory to `client/build` if deploying from monorepo; otherwise, default settings will work for this project root.
+
+---
+
+## Credits
+
+Built with Create React App. Design inspired by modern developer portfolios — minimal, usable, and fast.
+
+---
+
+If you'd like, I can also:
+
+- Create `src/index.css` with the recommended styles and import it into `src/index.js`.
+- Add a sample `README` demo GIF, badges (license, build), or a CONTRIBUTING.md.
+
+Replace placeholders (links, name, email) and this README is ready to ship.
