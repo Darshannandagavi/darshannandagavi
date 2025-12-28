@@ -33,7 +33,7 @@
 Clone and run locally:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Darshannandagavi/darshannandagavi.git
 cd client
 npm install
 npm start
