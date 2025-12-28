@@ -89,7 +89,7 @@ const HeroSection = () => {
   >
     <div className="image-wrapper">
       <img
-        src="./DarshanNandagavi.JPG"
+        src="./DarshanNandagavi.png"
         alt="Darshan Nandagavi"
         className="profile-pic"
       />
