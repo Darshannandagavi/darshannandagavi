@@ -1,14 +1,13 @@
 import "./Projects.css";
 import { 
   FaCheckCircle, 
-  FaExternalLinkAlt,
   FaCalendarAlt,
   FaHome,
   FaShieldAlt,
   FaCar,
   FaRobot
 } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import Certificates from "./Certificates";
 
 const Projects = () => {
   const projects = [
@@ -146,16 +145,8 @@ const Projects = () => {
             </div>
           ))}
         </div>
-
-        {/* View All */}
-        <div className="view-all" data-aos="fade-up">
-          <NavLink to="/projects" className="view-all-btn">
-            View All Projects
-            <FaExternalLinkAlt className="btn-icon" />
-          </NavLink>
-        </div>
-
       </div>
+      <Certificates/>
     </section>
   );
 };

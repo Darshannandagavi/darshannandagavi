@@ -7,6 +7,7 @@ import Contact from "./Components/GuestLayout/Contact";
 import Projects from "./Components/GuestLayout/Projects";
 import AboutSection from "./Components/GuestLayout/AboutSection";
 import Experience from "./Components/GuestLayout/Experience";
+import Certificates from "./Components/GuestLayout/Certificates";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/education" element={<Education/>}></Route>
           <Route path="/experience" element={<Experience/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/certificates" element={<Certificates/>}></Route>
           <Route path="/projects" element={<Projects/>}></Route>
           <Route path="/about" element={<AboutSection/>}></Route>
       </Route>
