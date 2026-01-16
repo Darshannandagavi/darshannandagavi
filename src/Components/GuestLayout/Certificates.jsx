@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Certificates.css';
-import { FaCertificate, FaCalendarAlt, FaExternalLinkAlt, FaTimes, FaExpand, FaDownload } from 'react-icons/fa';
+import { FaCalendarAlt, FaExternalLinkAlt, FaTimes, FaExpand, FaDownload } from 'react-icons/fa';
 
 const Certificates = () => {
   const certificates = [

@@ -52,11 +52,11 @@ const GuestFooter = () => {
           <div className="footer-links" data-aos="fade-up" data-aos-delay="100">
             <h3 className="links-title">Quick Navigation</h3>
             <ul className="links-list">
-              <li><a href="#" className="footer-link">Home</a></li>
-              <li><a href="#about" className="footer-link">About</a></li>
-              <li><a href="#projects" className="footer-link">Projects</a></li>
-              <li><a href="#experience" className="footer-link">Experience</a></li>
-              <li><a href="#contact" className="footer-link">Contact</a></li>
+              <li><a href="/" className="footer-link">Home</a></li>
+              <li><a href="/about" className="footer-link">About</a></li>
+              <li><a href="/projects" className="footer-link">Projects</a></li>
+              <li><a href="/experience" className="footer-link">Experience</a></li>
+              <li><a href="/contact" className="footer-link">Contact</a></li>
             </ul>
           </div>
 
