@@ -11,7 +11,7 @@ const Certificates = () => {
       date: "November 28, 2025",
       photoUrl: "/Certificates/python_programming_coursera_certificate.png", 
       verifyUrl: "https://www.coursera.org/account/accomplishments/verify/HNKXVNJ3BU15",
-      downloadUrl: "/certificates/python_programming_coursera_certificate.png", 
+      downloadUrl: "/Certificates/python_programming_coursera_certificate.png", 
       fileName: "python_programming_coursera_certificate.png",
       description: "Programming in Python - Learn Python programming fundamentals and build applications",
     },
