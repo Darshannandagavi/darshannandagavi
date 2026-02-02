@@ -7,7 +7,7 @@ import {
   FaCar,
   FaRobot
 } from "react-icons/fa";
-import Certificates from "./Certificates";
+
 
 const Projects = () => {
   const projects = [
@@ -146,7 +146,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <Certificates/>
+      
     </section>
   );
 };

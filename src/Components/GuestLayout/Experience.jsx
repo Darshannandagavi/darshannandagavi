@@ -11,6 +11,7 @@ import {
   FaLaptopCode
 } from "react-icons/fa";
 import "./Experience.css";
+import Certificates from "./Certificates";
 
 
 const Experience = () => {
@@ -212,6 +213,7 @@ const Experience = () => {
         </div>
 
       </div>
+      <Certificates/>
     </section>
   );
 };
