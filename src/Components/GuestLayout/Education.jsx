@@ -1,17 +1,10 @@
 import React, { useEffect } from "react";
 import "./Education.css";
 import { FaBookOpen, FaFlask, FaGraduationCap } from "react-icons/fa";
-import AOS from "aos";
+
 
 const Education = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: true,
-      mirror: false,
-    });
-  }, []);
+
 
   const educationItems = [
     {

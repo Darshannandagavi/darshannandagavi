@@ -1,8 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
+
 import Tilt from "react-parallax-tilt";
 
 // React Icons
@@ -14,14 +12,6 @@ import Contact from "./Contact";
 import Education from "./Education"
 import Experience from "./Experience";
 const HeroSection = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: true,
-      mirror: false,
-    });
-  }, []);
 
   return (
     <main className="main" style={{marginTop:"40px"}}>
