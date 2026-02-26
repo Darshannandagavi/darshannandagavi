@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./Education.css";
 import { FaBookOpen, FaFlask, FaGraduationCap } from "react-icons/fa";
 
