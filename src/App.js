@@ -24,13 +24,13 @@ function App() {
     <Routes>
       <Route path="/" element={<GuestLayout />}>
         <Route index element={<HeroSection />} />
-        <Route path="education" element={<Education />} />
-        <Route path="experience" element={<Experience />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="certificates" element={<Certificates />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="about" element={<AboutSection />} />
-        <Route path="*" element={<h2>hello how are you</h2>} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/certificates" element={<Certificates />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<AboutSection />} />
+        <Route path="*" element={<h1>hello how are you</h1>} />
       </Route>
     </Routes>
   );
