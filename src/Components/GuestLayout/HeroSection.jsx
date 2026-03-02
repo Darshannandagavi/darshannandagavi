@@ -11,9 +11,11 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Education from "./Education";
 import Experience from "./Experience";
+import CustomCursor from "./CustomCursor";
 const HeroSection = () => {
   return (
     <main className="main" style={{ marginTop: "40px" }}>
+      <CustomCursor/>
       <section className="hero">
         {/* LEFT SIDE - Content */}
         <div className="hero-left" data-aos="fade-up">
