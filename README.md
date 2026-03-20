@@ -4,7 +4,7 @@
 
 ### Full-Stack Developer · AI Enthusiast · Builder of Things
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://darshannandagavi.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00ff88?style=for-the-badge&logo=vercel&logoColor=black)](https://darshannandagavi.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/darshan-nandagavi)
 [![Gmail](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:darshannandagavi@gmail.com)
 
@@ -17,7 +17,7 @@
 I'm a full-stack developer passionate about building polished, production-grade web applications and AI-driven tools. I love bridging great design with solid engineering — from React frontends to Node.js backends to Python AI assistants.
 
 - 🔭 Currently building **AI-integrated SaaS products** and full-stack web apps
-- 🤖 Working on **Friday** — a personal Python AI assistant inspired by Iron Man's J.A.R.V.I.S.
+- 🤖 Working on **Friday AI** — a personal Python AI assistant inspired by Iron Man's J.A.R.V.I.S.
 - 💼 Developing web solutions for **Ligand Software Solutions**
 - 🧠 Exploring **LLMs, vector databases, and agentic AI architectures**
 - 🎨 Strong eye for **premium UI/UX** — dark themes, glass morphism, and clean interfaces
@@ -45,8 +45,8 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-7c5cff?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-LLM-00d4ff?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-00ff88?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-LLM-00cc66?style=flat-square)
 
 **Tools & Deployment**
 
@@ -57,87 +57,69 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-### 🏢 Ligand Software Solutions — Company Website
-> Full-stack business website for an IT services company.
+<!-- ═══════════════════════════════════════════════════ -->
+<!--              PREMIUM FEATURED PROJECT              -->
+<!-- ═══════════════════════════════════════════════════ -->
 
-**Stack:** React · Node.js · Express · MongoDB · Multer · Nodemailer · Axios
+<div align="center">
 
-- Gallery management · Client reviews · Feedback system · Admin dashboard · Email notifications
+### ⭐ Featured · Client Project
 
----
+[![ligand-developers](https://github-readme-stats.vercel.app/api/pin/?username=Darshannandagavi&repo=ligand-developers&theme=radical&hide_border=false&bg_color=0a0a0a&title_color=FFD700&icon_color=FFA500&text_color=ffffff&border_color=FFD700)](https://github.com/Darshannandagavi/ligand-developers)
 
-### 🏠 LetMySpace — Real Estate Platform
-> Property listing and discovery platform with role-based access.
+**🏢 Ligand Software Solutions** — Full-stack business website for an IT services company
 
-**Stack:** React · Node.js · Express · MongoDB · Multer · bcrypt · Nodemailer
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-FFD700?style=flat-square&logo=vercel&logoColor=black)
 
-- User / Admin roles · OTP email verification · Property uploads · Category management · Spam moderation
+</div>
 
----
+<br/>
 
-### 🛡️ Morse-Security — Encrypted File Sharing
-> Secure file-sharing system using Morse code encryption.
+<!-- ═══════════════════════════════════════════════════ -->
+<!--               OTHER PROJECT CARDS                  -->
+<!-- ═══════════════════════════════════════════════════ -->
 
-**Stack:** React · Node.js · Express · MongoDB · bcrypt · Nodemailer
+<div align="center">
 
-- Morse code encryption · Role-based access · File management · Email alerts · Admin panel
+| 🏠 Real Estate | 🔧 Vehicle Assistance |
+|---|---|
+| [![LetMySpace](https://github-readme-stats.vercel.app/api/pin/?username=Darshannandagavi&repo=LetMySpace&theme=merko&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cc66&text_color=c9d1d9)](https://github.com/Darshannandagavi/LetMySpace) | **🔧 QuickFix** <br/> **MERN · JWT · Leaflet · node-cron · Nodemailer** <br/> <sub>Emergency vehicle booking platform with geo-near shop discovery, booking lifecycle management, and automated reminder emails.</sub> |
 
----
+</div>
 
-### 🔧 QuickFix — Vehicle Breakdown Assistance
-> Emergency vehicle support platform connecting users with nearby mechanic shops.
+<div align="center">
 
-**Stack:** React · Node.js · Express · MongoDB · JWT · Multer · Nodemailer · node-cron · Leaflet
+| 🛡️ File Security | 🤖 AI Assistant (Web) |
+|---|---|
+| **🛡️ Morse-Security** <br/> **React · Node.js · MongoDB · bcrypt** <br/> <sub>Secure file-sharing using Morse code encryption with role-based access control and email alerts.</sub> | **🤖 Jarvis** <br/> **Python · Groq API · Llama · BeautifulSoup · AsyncIO** <br/> <sub>Voice and text AI assistant with intent classification, web intelligence, command memory, and system automation.</sub> |
 
-- Geo-near shop discovery · Booking lifecycle management · Payment proof upload · Razorpay integration · Automated reminder emails · Role-based access
+</div>
 
----
+<div align="center">
 
-### 🤖 Jarvis — AI Voice Assistant
-> Voice and text AI assistant with web intelligence and system automation.
+| 🧠 AI Assistant (Desktop) | 🔐 Cybersecurity ML |
+|---|---|
+| **🧠 Friday AI** <br/> **Python · PyQt5 · Groq API · Cohere · Tavily** <br/> <sub>Desktop AI assistant with voice interaction, real-time web search, intent routing, and modular desktop automation.</sub> | **🔐 Cyber Attack Prediction** <br/> **Python · scikit-learn · Random Forest · pandas · NumPy** <br/> <sub>ML model detecting 30+ cyber attack types from 400k+ network traffic records with 77%+ accuracy.</sub> |
 
-**Stack:** Python · Groq API · Llama · BeautifulSoup · AsyncIO · HTML · CSS · JavaScript
-
-- Intent classification · Web search fallback · Command memory · App automation · Email & WhatsApp skills · Async execution
-
----
-
-### 🧠 Friday AI — Desktop AI Assistant
-> Desktop AI assistant with voice interaction and modular automation.
-
-**Stack:** Python · PyQt5 · Groq API · Cohere · Tavily · AsyncIO · Threading
-
-- Voice + text input · Intent routing · Real-time web search · Desktop automation · Chat memory · Status-aware UI
-
----
-
-### 🛡️ Cyber Attack Prediction Model
-> ML model for detecting 30+ types of cyber attacks from network traffic data.
-
-**Stack:** Python · scikit-learn · Random Forest · pandas · NumPy · Google Colab
-
-- 400k+ training records · 30+ attack types · 77%+ accuracy · Class imbalance handling · Confusion matrix evaluation
+</div>
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-### 🗂️ Top Repositories
 
-<div align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=merko&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cc66&text_color=c9d1d9)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Darshannandagavi&layout=compact&theme=merko&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9)
 
-[![LigandSoftwareSolutions](https://github-readme-stats.vercel.app/api/pin/?username=Darshannandagavi&repo=ligand-developers&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)](https://github.com/Darshannandagavi/ligand-developers)
+![Streak](https://streak-stats.demolab.com?user=Darshannandagavi&theme=merko&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88)
 
-</div>
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Darshannandagavi&layout=compact&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&text_color=e6eef8)
-
-![Streak](https://streak-stats.demolab.com?user=Darshannandagavi&theme=tokyonight&hide_border=true&background=071229&ring=00d4ff&fire=7c5cff&currStreakLabel=00d4ff)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Darshannandagavi&theme=tokyo-night&bg_color=071229&color=00d4ff&line=7c5cff&point=ffffff&hide_border=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Darshannandagavi&theme=merko&bg_color=0d1117&color=00ff88&line=00cc66&point=ffffff&hide_border=true)
 
 </div>
 
