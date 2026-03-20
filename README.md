@@ -5,7 +5,7 @@
 ### Full-Stack Developer · AI Enthusiast · Builder of Things
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://darshannandagavi.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/darshannandagavi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/darshan-nandagavi)
 [![Gmail](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:darshannandagavi@gmail.com)
 
 </div>
@@ -113,7 +113,7 @@ I'm a full-stack developer passionate about building polished, production-grade 
 I'm open to collaborations, freelance projects, and interesting conversations around AI and web development.
 
 - 📧 **Email:** [darshannandagavi@gmail.com](mailto:darshannandagavi@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/darshannandagavi](https://linkedin.com/in/darshannandagavi)
+- 💼 **LinkedIn:** [linkedin.com/in/darshan-nandagavi](https://linkedin.com/in/darshan-nandagavi)
 - 🌐 **Portfolio:** [darshannandagavi.vercel.app](https://darshannandagavi.vercel.app)
 
 ---
