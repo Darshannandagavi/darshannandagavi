@@ -108,9 +108,9 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 I'm open to collaborations, freelance projects, and interesting conversations around AI and web development.
 
-- 📧 **Email:** [your@email.com](mailto:your@email.com)
-- 💼 **LinkedIn:** [linkedin.com/in/your-linkedin](https://linkedin.com/in/your-linkedin)
-- 🌐 **Portfolio:** [your-portfolio-url.com](https://github.com/Darshannandagavi)
+- 📧 **Email:** [nandagavidarshan562@gmail.com](mailto:nandagavidarshan562@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/darshannandagavi](https://linkedin.com/in/your-linkedin)
+- 🌐 **Portfolio:** [darshannandagavi.vercel.app](https://github.com/Darshannandagavi)
 
 ---
 
