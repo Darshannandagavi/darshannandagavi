@@ -125,7 +125,13 @@ I'm a full-stack developer passionate about building polished, production-grade 
 ## 📊 GitHub Stats
 
 <div align="center">
+### 🗂️ Top Repositories
 
+<div align="center">
+
+[![LigandSoftwareSolutions](https://github-readme-stats.vercel.app/api/pin/?username=Darshannandagavi&repo=ligand-developers&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)](https://github.com/Darshannandagavi/ligand-developers)
+
+</div>
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Darshannandagavi&layout=compact&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&text_color=e6eef8)
 
