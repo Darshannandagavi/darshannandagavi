@@ -59,31 +59,66 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ## 🚀 Featured Projects
 
-### 🤖 Friday — Personal AI Assistant
-> A Python-based desktop AI assistant inspired by Iron Man's J.A.R.V.I.S., featuring a custom PyQt5 GUI, voice interaction, and modular AI capabilities.
+### 🏢 Ligand Software Solutions — Company Website
+> Full-stack business website for an IT services company.
 
-**Stack:** Python · PyQt5 · LLM APIs · STT/TTS · ChromaDB (Vector Memory)
+**Stack:** React · Node.js · Express · MongoDB · Multer · Nodemailer · Axios
 
----
-
-### 🌐 Ligand Software Solutions — Company Website
-> Full-stack business website with a dynamic feedback system, gallery, public reviews, and an admin dashboard.
-
-**Stack:** React · Node.js · Express · MongoDB · Mongoose · Axios
+- Gallery management · Client reviews · Feedback system · Admin dashboard · Email notifications
 
 ---
 
-### 🎓 NexusLearn — AI Education Platform Dashboard
-> Premium dark-themed SaaS dashboard with an "Obsidian Crystal" design system, AI-driven learning features, and a full admin feedback management interface.
+### 🏠 LetMySpace — Real Estate Platform
+> Property listing and discovery platform with role-based access.
 
-**Stack:** React · Node.js · MongoDB · CSS3 (custom design tokens)
+**Stack:** React · Node.js · Express · MongoDB · Multer · bcrypt · Nodemailer
+
+- User / Admin roles · OTP email verification · Property uploads · Category management · Spam moderation
+
+---
+
+### 🛡️ Morse-Security — Encrypted File Sharing
+> Secure file-sharing system using Morse code encryption.
+
+**Stack:** React · Node.js · Express · MongoDB · bcrypt · Nodemailer
+
+- Morse code encryption · Role-based access · File management · Email alerts · Admin panel
+
+---
+
+### 🔧 QuickFix — Vehicle Breakdown Assistance
+> Emergency vehicle support platform connecting users with nearby mechanic shops.
+
+**Stack:** React · Node.js · Express · MongoDB · JWT · Multer · Nodemailer · node-cron · Leaflet
+
+- Geo-near shop discovery · Booking lifecycle management · Payment proof upload · Razorpay integration · Automated reminder emails · Role-based access
+
+---
+
+### 🤖 Jarvis — AI Voice Assistant
+> Voice and text AI assistant with web intelligence and system automation.
+
+**Stack:** Python · Groq API · Llama · BeautifulSoup · AsyncIO · HTML · CSS · JavaScript
+
+- Intent classification · Web search fallback · Command memory · App automation · Email & WhatsApp skills · Async execution
+
+---
+
+### 🧠 Friday AI — Desktop AI Assistant
+> Desktop AI assistant with voice interaction and modular automation.
+
+**Stack:** Python · PyQt5 · Groq API · Cohere · Tavily · AsyncIO · Threading
+
+- Voice + text input · Intent routing · Real-time web search · Desktop automation · Chat memory · Status-aware UI
 
 ---
 
 ### 🛡️ Cyber Attack Prediction Model
-> ML classification model trained on 400k+ rows of network traffic data to detect 30+ types of cyber attacks (DDoS, DoS, MIRAI, MITM, Recon, etc.).
+> ML model for detecting 30+ types of cyber attacks from network traffic data.
 
-**Stack:** Python · scikit-learn · Random Forest · pandas · Google Colab
+**Stack:** Python · scikit-learn · Random Forest · pandas · NumPy · Google Colab
+
+- 400k+ training records · 30+ attack types · 77%+ accuracy · Class imbalance handling · Confusion matrix evaluation
 
 ---
 
@@ -91,21 +126,12 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 <div align="center">
 
-<!-- Profile Views -->
-![Profile Views](https://komarev.com/ghpvc/?username=Darshannandagavi&color=00d4ff&style=for-the-badge&label=PROFILE+VIEWS)
-
-<!-- Stats + Languages side by side -->
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Darshannandagavi&layout=compact&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&text_color=e6eef8)
 
-<!-- Streak -->
 ![Streak](https://streak-stats.demolab.com?user=Darshannandagavi&theme=tokyonight&hide_border=true&background=071229&ring=00d4ff&fire=7c5cff&currStreakLabel=00d4ff)
 
-<!-- Activity Graph (full width) -->
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Darshannandagavi&theme=tokyo-night&bg_color=071229&color=00d4ff&line=7c5cff&point=ffffff&hide_border=true)
-
-<!-- Trophies (full width) -->
-![Trophies](https://github-profile-trophy.vercel.app/?username=Darshannandagavi&theme=tokyonight&no-frame=true&row=1&column=7)
 
 </div>
 
