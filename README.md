@@ -91,9 +91,21 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 <div align="center">
 
-![Darshan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)
+<!-- Profile Views -->
+![Profile Views](https://komarev.com/ghpvc/?username=Darshannandagavi&color=00d4ff&style=for-the-badge&label=PROFILE+VIEWS)
 
+<!-- Stats + Languages side by side -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Darshannandagavi&layout=compact&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&text_color=e6eef8)
+
+<!-- Streak -->
+![Streak](https://streak-stats.demolab.com?user=Darshannandagavi&theme=tokyonight&hide_border=true&background=071229&ring=00d4ff&fire=7c5cff&currStreakLabel=00d4ff)
+
+<!-- Activity Graph (full width) -->
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Darshannandagavi&theme=tokyo-night&bg_color=071229&color=00d4ff&line=7c5cff&point=ffffff&hide_border=true)
+
+<!-- Trophies (full width) -->
+![Trophies](https://github-profile-trophy.vercel.app/?username=Darshannandagavi&theme=tokyonight&no-frame=true&row=1&column=7)
 
 </div>
 
