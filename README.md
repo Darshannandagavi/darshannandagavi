@@ -1,134 +1,127 @@
-[![Portfolio](https://img.shields.io/badge/portfolio-Darshan-blue?style=flat-square)](https://github.com)
+<div align="center">
 
-# Darshan — Personal Portfolio
+# Hi there, I'm Darshan 👋
 
-> A modern, minimal and responsive React portfolio showcasing projects, experience, education, and ways to contact me. Built with Create React App and focused on accessibility, performance, and clarity.
+### Full-Stack Developer · AI Enthusiast · Builder of Things
 
----
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Darshannandagavi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
+[![Gmail](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
-## Live Demo
-
-- Add your deployed URL here (Netlify, Vercel, GitHub Pages, etc.)
-
-## Key Highlights
-
-- Clean, mobile-first design
-- Hero section with clear call-to-action
-- Projects gallery with cards and links to live demos & source code
-- Experience & education timeline
-- Contact details and optional contact form
-- Accessible semantic markup and keyboard-friendly navigation
-
-## Tech Stack
-
-- React (Create React App)
-- JavaScript (ES6+)
-- HTML5 & CSS3 (Flexbox & Grid)
-- Optional: Netlify / Vercel for deployments
+</div>
 
 ---
 
-## Quick Start
+## 🙋‍♂️ About Me
 
-Clone and run locally:
+I'm a full-stack developer passionate about building polished, production-grade web applications and AI-driven tools. I love bridging great design with solid engineering — from React frontends to Node.js backends to Python AI assistants.
 
-```bash
-git clone https://github.com/Darshannandagavi/darshannandagavi.git
-cd client
-npm install
-npm start
-
-# open http://localhost:3000
-```
-
-Build for production:
-
-```bash
-npm run build
-```
+- 🔭 Currently building **AI-integrated SaaS products** and full-stack web apps
+- 🤖 Working on **Friday** — a personal Python AI assistant inspired by Iron Man's J.A.R.V.I.S.
+- 💼 Developing web solutions for **Ligand Software Solutions**
+- 🧠 Exploring **LLMs, vector databases, and agentic AI architectures**
+- 🎨 Strong eye for **premium UI/UX** — dark themes, glass morphism, and clean interfaces
+- 📍 Based in Karnataka, India
 
 ---
 
-## Project Structure
+## 🛠️ Tech Stack
 
-- public/ — static files and `index.html`
-- src/ — React source
-	- App.js, index.js — app entry
-	- Components/GuestLayout/ — layout and page sections
+**Frontend**
 
----
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-## Suggested Styling (drop into `src/index.css`)
+**Backend**
 
-The project already uses component-level styles. Below is a polished global stylesheet you can paste into `src/index.css` to get a modern, consistent look across components. Import it from `src/index.js` (`import './index.css'`).
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-```css
-:root{
-	--bg: #071229;
-	--card: #0b1220;
-	--muted: #9aa4b2;
-	--accent: #00d4ff;
-	--accent-2: #7c5cff;
-	--text: #e6eef8;
-	--glass: rgba(255,255,255,0.04);
-	--radius: 12px;
-	--container: 1100px;
-}
-*{box-sizing:border-box}
-html,body,#root{height:100%}
-body{
-	margin:0;
-	font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
-	background:linear-gradient(180deg,var(--bg),#021426 70%);
-	color:var(--text);
-	-webkit-font-smoothing:antialiased;
-}
-.container{max-width:var(--container);margin:0 auto;padding:0 1.25rem}
-.nav{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
-.hero{display:grid;grid-template-columns:1fr 420px;gap:2rem;padding:3.5rem 0}
-.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
-.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,0.55);border:1px solid rgba(255,255,255,0.03)}
-.cta{display:inline-flex;padding:0.75rem 1rem;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#02101a;font-weight:700}
-@media (max-width:980px){.hero{grid-template-columns:1fr}.projects-grid{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:620px){.projects-grid{grid-template-columns:1fr}}
-```
+**AI / ML**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-7c5cff?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-LLM-00d4ff?style=flat-square)
+
+**Tools & Deployment**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 
 ---
 
-## Accessibility & Performance Tips
+## 🚀 Featured Projects
 
-- Use semantic elements (`<header>`, `<main>`, `<section>`, `<footer>`).
-- Provide meaningful `alt` text for images and `aria-label` for non-text controls.
-- Use `loading="lazy"` for non-critical images.
-- Keep color contrast high (adjust `--accent` if needed) for WCAG AA.
-- Minimize large libraries; lazy-load heavy components when possible.
+### 🤖 Friday — Personal AI Assistant
+> A Python-based desktop AI assistant inspired by Iron Man's J.A.R.V.I.S., featuring a custom PyQt5 GUI, voice interaction, and modular AI capabilities.
 
----
-
-## How to Customize
-
-- Replace the hero text, your name, and links (GitHub, LinkedIn, email).
-- Add or remove projects in `Components/GuestLayout/Projects.jsx` (or your Projects component).
-- Hook up a contact form backend (Formspree, Netlify Forms, or your own API).
+**Stack:** Python · PyQt5 · LLM APIs · STT/TTS · ChromaDB (Vector Memory)
 
 ---
 
-## Deployment
+### 🌐 Ligand Software Solutions — Company Website
+> Full-stack business website with a dynamic feedback system, gallery, public reviews, and an admin dashboard.
 
-- Build with `npm run build` and deploy the `build/` folder to Netlify, Vercel, or GitHub Pages.
-- For Netlify/Vercel: connect the repo and set the publish directory to `client/build` if deploying from monorepo; otherwise, default settings will work for this project root.
-
----
-
-## Credits
-
-Built with Create React App. Design inspired by modern developer portfolios — minimal, usable, and fast.
+**Stack:** React · Node.js · Express · MongoDB · Mongoose · Axios
 
 ---
 
-If you'd like, I can also:
+### 🎓 NexusLearn — AI Education Platform Dashboard
+> Premium dark-themed SaaS dashboard with an "Obsidian Crystal" design system, AI-driven learning features, and a full admin feedback management interface.
 
-- Create `src/index.css` with the recommended styles and import it into `src/index.js`.
-- Add a sample `README` demo GIF, badges (license, build), or a CONTRIBUTING.md.
+**Stack:** React · Node.js · MongoDB · CSS3 (custom design tokens)
 
-Replace placeholders (links, name, email) and this README is ready to ship.
+---
+
+### 🛡️ Cyber Attack Prediction Model
+> ML classification model trained on 400k+ rows of network traffic data to detect 30+ types of cyber attacks (DDoS, DoS, MIRAI, MITM, Recon, etc.).
+
+**Stack:** Python · scikit-learn · Random Forest · pandas · Google Colab
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Darshan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Darshannandagavi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&icon_color=7c5cff&text_color=e6eef8)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Darshannandagavi&layout=compact&theme=tokyonight&hide_border=true&bg_color=071229&title_color=00d4ff&text_color=e6eef8)
+
+</div>
+
+---
+
+## 🌱 Currently Learning
+
+- 🧠 Vector databases & semantic memory for AI agents (ChromaDB, Qdrant)
+- ⚙️ LLM orchestration with LangChain and function calling
+- 🔐 Cybersecurity ML — intrusion detection systems
+- 📦 Production deployment with Docker & CI/CD pipelines
+
+---
+
+## 📫 Get In Touch
+
+I'm open to collaborations, freelance projects, and interesting conversations around AI and web development.
+
+- 📧 **Email:** [your@email.com](mailto:your@email.com)
+- 💼 **LinkedIn:** [linkedin.com/in/your-linkedin](https://linkedin.com/in/your-linkedin)
+- 🌐 **Portfolio:** [your-portfolio-url.com](https://github.com/Darshannandagavi)
+
+---
+
+<div align="center">
+
+*"The best way to predict the future is to build it."*
+
+⭐ **If you find my work useful, consider starring a repo!**
+
+</div>
