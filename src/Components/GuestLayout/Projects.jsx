@@ -5,18 +5,19 @@ import {
   FaHome,
   FaShieldAlt,
   FaCar,
-  FaRobot
+  FaRobot,
 } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
 
 const Projects = () => {
+  const navigate = useNavigate();
   const projects = [
     {
       id: 1,
       title: "LetMySpace",
       description: "A full-stack property listing and booking platform with authentication, uploads, OTP email verification, and admin panel.",
       icon: <FaHome />,
-      date: "June 2024",
+      date: "March 2024",
       status: "completed",
       tech: ["React.js", "Node.js", "MongoDB"],
       features: [
@@ -24,14 +25,15 @@ const Projects = () => {
         "OTP email verification",
         "Secure file upload",
         "Admin dashboard"
-      ]
+      ],
+      path: "letmyspace",
     },
     {
       id: 2,
       title: "Morse-Security",
       description: "Secure file-sharing system using Morse code encryption with role-based access control.",
       icon: <FaShieldAlt />,
-      date: "July 2024",
+      date: "June 2024",
       status: "completed",
       tech: ["Node.js", "React.js", "MongoDB"],
       features: [
@@ -39,7 +41,8 @@ const Projects = () => {
         "Role-based access",
         "File management",
         "Email alerts"
-      ]
+      ],
+      path: "morsesecurity",
     },
     {
       id: 3,
@@ -54,14 +57,15 @@ const Projects = () => {
         "Location sharing",
         "Booking system",
         "Email notifications"
-      ]
+      ],
+      path: "quickfix",
     },
     {
       id: 4,
       title: "Jarvis AI",
       description: "AI-powered voice assistant with multilingual support and automation capabilities.",
       icon: <FaRobot />,
-      date: "June 2025",
+      date: "September 2025",
       status: "completed",
       tech: ["Python", "Gemini API", "SpeechRecognition"],
       features: [
@@ -69,8 +73,25 @@ const Projects = () => {
         "Email automation",
         "Multilingual",
         "Web automation"
-      ]
-    }
+      ],
+      path: "jarvis",
+    },
+    {
+  id: 5,
+  title: "Friday AI",
+  description: "Desktop AI assistant with voice and text interaction, real-time web intelligence, and modular automation workflows.",
+  icon: <FaRobot />,
+  date: "January 2026",
+  status: "completed",
+  tech: ["Python", "PyQt5", "Groq API","Tavily API"],
+  features: [
+    "Voice & text input",
+    "Real-time web search",
+    "Desktop automation",
+    "Intent classification"
+  ],
+  path: "fridayai",
+},
   ];
 
   return (
@@ -95,6 +116,7 @@ const Projects = () => {
               className="project-card"
               data-aos="fade-up"
               data-aos-delay={project.id * 100}
+              onClick={() => navigate(`/projects/${project.path}`)}
             >
               
               {/* Header */}

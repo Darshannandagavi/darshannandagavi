@@ -117,12 +117,12 @@ const AboutSection = () => {
                     <FaRocket />
                   </div>
                   <div className="project-info">
-                    <h4>QuickFix</h4>
-                    <p>Vehicle emergency booking platform</p>
+                    <h4>Ligand Develoeprs</h4>
+                    <p>Online Education Platform</p>
                   </div>
                   <div className="project-status">
                     <div className="status-dot active"></div>
-                    <span>In Progress</span>
+                    <span>In Development</span>
                   </div>
                 </div>
 

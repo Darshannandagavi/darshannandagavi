@@ -72,10 +72,12 @@ const Experience = () => {
         liveUrl: "https://liganddevelopers.vercel.app/",
       icon: <FaLaptopCode />,
       features: [
+        "Notes Management",
+        "Exam Management",
         "Attendance tracking",
         "Homework evaluation",
         "Fee management",
-        "Admin controls"
+        "++Many more"
       ]
     },
      {

@@ -11,11 +11,11 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Education from "./Education";
 import Experience from "./Experience";
-import CustomCursor from "./CustomCursor";
+
 const HeroSection = () => {
   return (
     <main className="main" style={{ marginTop: "40px" }}>
-      <CustomCursor/>
+      
       <section className="hero">
         {/* LEFT SIDE - Content */}
         <div className="hero-left" data-aos="fade-up">
@@ -41,15 +41,16 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="hero-buttons" data-aos="fade-up" data-aos-delay="200">
-            <a href="#projects" className="btn btn-primary">
+            <a href="#projects" className="btnn btn-primary">
               <AiOutlineSearch className="btn-icon" />
               <span>View Projects</span>
             </a>
 
             <a
               href="/Darshan_Resume.pdf"
-              className="btn btn-secondary"
+              className="btnn btn-secondary"
               download
+              
             >
               <FaDownload className="btn-icon" />
               <span>Download Resume</span>
