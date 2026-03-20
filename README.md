@@ -59,12 +59,7 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ## 🚀 Featured Projects
 
-### 🤖 Friday — Personal AI Assistant
-> A Python-based desktop AI assistant inspired by Iron Man's J.A.R.V.I.S., featuring a custom PyQt5 GUI, voice interaction, and modular AI capabilities.
 
-**Stack:** Python · PyQt5 · LLM APIs · STT/TTS · ChromaDB (Vector Memory)
-
----
 
 ### 🌐 Ligand Software Solutions — Company Website
 > Full-stack business website with a dynamic feedback system, gallery, public reviews, and an admin dashboard.
@@ -73,12 +68,13 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ---
 
-### 🎓 NexusLearn — AI Education Platform Dashboard
-> Premium dark-themed SaaS dashboard with an "Obsidian Crystal" design system, AI-driven learning features, and a full admin feedback management interface.
+### 🤖 Friday — Personal AI Assistant
+> A Python-based desktop AI assistant inspired by Iron Man's J.A.R.V.I.S., featuring a custom PyQt5 GUI, voice interaction, and modular AI capabilities.
 
-**Stack:** React · Node.js · MongoDB · CSS3 (custom design tokens)
+**Stack:** Python · PyQt5 · LLM APIs · STT/TTS · ChromaDB (Vector Memory)
 
 ---
+
 
 ### 🛡️ Cyber Attack Prediction Model
 > ML classification model trained on 400k+ rows of network traffic data to detect 30+ types of cyber attacks (DDoS, DoS, MIRAI, MITM, Recon, etc.).
