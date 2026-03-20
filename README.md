@@ -4,9 +4,9 @@
 
 ### Full-Stack Developer · AI Enthusiast · Builder of Things
 
-[![Portfolio](darshannandagavi.vercel.app)](darshannandagavi.vercel.app)
-[![LinkedIn](linkedin.com/in/darshannandagavi)](linkedin.com/in/darshannandagavi)
-[![Gmail](linkedin.com/in/darshannandagavi)](linkedin.com/in/darshannandagavi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://darshannandagavi.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/darshannandagavi)
+[![Gmail](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:darshannandagavi@gmail.com)
 
 </div>
 
@@ -59,7 +59,12 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ## 🚀 Featured Projects
 
+### 🤖 Friday — Personal AI Assistant
+> A Python-based desktop AI assistant inspired by Iron Man's J.A.R.V.I.S., featuring a custom PyQt5 GUI, voice interaction, and modular AI capabilities.
 
+**Stack:** Python · PyQt5 · LLM APIs · STT/TTS · ChromaDB (Vector Memory)
+
+---
 
 ### 🌐 Ligand Software Solutions — Company Website
 > Full-stack business website with a dynamic feedback system, gallery, public reviews, and an admin dashboard.
@@ -68,13 +73,12 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 ---
 
-### 🤖 Friday — Personal AI Assistant
-> A Python-based desktop AI assistant inspired by Iron Man's J.A.R.V.I.S., featuring a custom PyQt5 GUI, voice interaction, and modular AI capabilities.
+### 🎓 NexusLearn — AI Education Platform Dashboard
+> Premium dark-themed SaaS dashboard with an "Obsidian Crystal" design system, AI-driven learning features, and a full admin feedback management interface.
 
-**Stack:** Python · PyQt5 · LLM APIs · STT/TTS · ChromaDB (Vector Memory)
+**Stack:** React · Node.js · MongoDB · CSS3 (custom design tokens)
 
 ---
-
 
 ### 🛡️ Cyber Attack Prediction Model
 > ML classification model trained on 400k+ rows of network traffic data to detect 30+ types of cyber attacks (DDoS, DoS, MIRAI, MITM, Recon, etc.).
@@ -108,9 +112,9 @@ I'm a full-stack developer passionate about building polished, production-grade 
 
 I'm open to collaborations, freelance projects, and interesting conversations around AI and web development.
 
-- 📧 **Email:** [nandagavidarshan562@gmail.com](mailto:nandagavidarshan562@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/darshannandagavi](linkedin.com/in/darshannandagavi)
-- 🌐 **Portfolio:** [darshannandagavi.vercel.app](darshannandagavi.vercel.app)
+- 📧 **Email:** [darshannandagavi@gmail.com](mailto:darshannandagavi@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/darshannandagavi](https://linkedin.com/in/darshannandagavi)
+- 🌐 **Portfolio:** [darshannandagavi.vercel.app](https://darshannandagavi.vercel.app)
 
 ---
 
