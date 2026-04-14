@@ -15,6 +15,28 @@ const Certificates = () => {
       fileName: "python_programming_coursera_certificate.png",
       description: "Programming in Python - Learn Python programming fundamentals and build applications",
     },
+    {
+      id: 2,
+      name: "Verbal Mastery",
+      issuer: "Board Infinity",
+      date: "April 14, 2026",
+      photoUrl: "/Certificates/math_resoning.png", 
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/VVEG8Q31D9ZH",
+      downloadUrl: "/Certificates/math_resoning.png", 
+      fileName: "math_resoning.png",
+      description: "Verbal Mastery: Grammar, RC, Reasoning for Exams & Job Tests",
+    },
+    {
+      id: 3,
+      name: "Quantitative Aptitude",
+      issuer: "Board Infinity",
+      date: "April 14, 2026",
+      photoUrl: "/Certificates/math_aptitude.png", 
+      verifyUrl: "https://www.coursera.org/account/accomplishments/verify/2PZ1LFGV684W",
+      downloadUrl: "/Certificates/math_aptitude.png", 
+      fileName: "math_aptitude.png",
+      description: "Quantitative Aptitude Mastery— Exam & Recruitment Prep",
+    },
     
   ];
 
