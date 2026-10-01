@@ -140,7 +140,7 @@ I'm open to collaborations, freelance projects, and interesting conversations ar
 
 - 📧 **Email:** [darshannandagavi@gmail.com](mailto:darshannandagavi@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/darshan-nandagavi](https://linkedin.com/in/darshan-nandagavi)
-- 🌐 **Portfolio:** [darshannandagavi.vercel.app](https://darshannandagavi.netlify.app)
+- 🌐 **Portfolio:** [darshannandagavi.netlify.app](https://darshannandagavi.netlify.app)
 
 ---
 
